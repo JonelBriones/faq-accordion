@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 const data = [
   {
@@ -46,7 +46,7 @@ function App() {
         <div className="max-w-sm h-auto bg-white rounded-lg p-6 md:max-w-3xl  md:top-40   ">
           <div className="flex gap-6 items-center">
             <img
-              src="../src/assets/images/icon-star.svg"
+              src="../public/assets/images/icon-star.svg"
               alt="icon-star.svg"
               className="size-8"
             />
@@ -63,7 +63,7 @@ function App() {
               <div className="flex place-items-center justify-between">
                 <h4 className="font-bold text-xl">{accordion.title}</h4>
                 <img
-                  src={`../src/assets/images/icon-${
+                  src={`../public/assets/images/icon-${
                     accordion.show ? "minus" : "plus"
                   }.svg`}
                   alt="icon-star.svg"
