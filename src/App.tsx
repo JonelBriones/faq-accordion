@@ -41,12 +41,12 @@ function App() {
   };
 
   return (
-    <div className="bg-purple-300 min-h-screen max-h-full bg-[url('../src/assets/images/background-pattern-mobile.svg')] bg-contain bg-top bg-no-repeat flex flex-col justify-between place-items-center ">
+    <div className="bg-purple-300 min-h-screen max-h-full bg-[url('../public/images/background-pattern-mobile.svg')] bg-contain bg-top bg-no-repeat flex flex-col justify-between place-items-center ">
       <div className=" font-mono select-none relative mt-40">
         <div className="max-w-sm h-auto bg-white rounded-lg p-6 md:max-w-3xl  md:top-40   ">
           <div className="flex gap-6 items-center">
             <img
-              src="../public/assets/images/icon-star.svg"
+              src="../public/images/icon-star.svg"
               alt="icon-star.svg"
               className="size-8"
             />
@@ -63,7 +63,7 @@ function App() {
               <div className="flex place-items-center justify-between">
                 <h4 className="font-bold text-xl">{accordion.title}</h4>
                 <img
-                  src={`../public/assets/images/icon-${
+                  src={`../public/images/icon-${
                     accordion.show ? "minus" : "plus"
                   }.svg`}
                   alt="icon-star.svg"
